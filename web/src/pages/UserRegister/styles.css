@@ -1,0 +1,70 @@
+.user-register {
+    width: 100vw;
+    height: 100vh;
+}
+
+.user-register main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3.2rem;
+    padding: 3.2rem;
+
+    border-radius: 1rem;
+    background-color: var(--color-box-base);
+}
+
+.user-register main form {
+    width: 100%;
+}
+
+.user-register main fieldset {
+    border: 0;
+}
+
+.user-register main fieldset legend {
+   font: 700 2.4rem Lato;
+   padding-bottom: 1rem;;
+   border-bottom: 1px solid var(--color-line-in-white);
+}
+
+.user-register main fieldset .input-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+.user-register main fieldset .input-block input {
+    width: 100%;
+    height: 5rem;
+
+    border: 1px solid;
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+
+    background-color: var(--color-input-background);
+}
+
+.user-register main fieldset button {
+    margin-top: 3.2rem;
+    width: 100%;
+    height: 5rem;
+
+    background-color: var(--color-secondary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+
+    font: 700 2rem Lato;
+    transition: background-color 0.2s;
+}
+
+.user-register main fieldset button:hover {
+    background-color: var(--color-secondary-dark);
+}
+
+
