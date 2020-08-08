@@ -2,14 +2,16 @@
 
 #### User 
 
-1. Register user
+1. Register user X
     1.1 Name
     1.2 Email
     1.3 Password
 
-2. List users
+2. Login X
 
 3. Reset password
+
+4. List users (Admin)
 
 #### Project
 

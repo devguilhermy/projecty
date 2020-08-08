@@ -1,0 +1,14 @@
+{
+  "name": "projecty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devguilhermy/projecty.git",
+  "author": "Guilhermy <55157846+devguilhermy@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "format": "standard --fix"
+  }
+}

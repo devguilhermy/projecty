@@ -1,0 +1,59 @@
+.project-item {
+	width: 100%;
+	padding: 2rem 3.2rem;
+	margin: 3.2rem auto;
+
+	background-color: var(--color-input-background);
+	border: 1px solid var(--color-line-in-white);
+	border-radius: 0.8rem;
+}
+
+.project-item .project-title {
+	font: 700 2.4rem Lato;
+}
+
+.project-item .project-description,
+.project-item .project-creation-date {
+	margin-top: 1rem;
+}
+
+.project-item .project-creation-date {
+	font-style: italic;
+}
+
+
+.project-item .project-actions {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1rem;
+	
+	margin-top: 2rem;
+}
+
+
+.project-item .project-actions a {
+	width: 100%;
+	height: 5rem;
+	padding: 1rem;
+
+	font: 700 2rem Lato;
+	color: var(--color-button-text);
+	background-color: var(--color-secondary);
+	border-radius: 0.8rem;
+	text-decoration: none;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: background-color 0.2s;
+	
+}
+
+.project-item .project-actions a:hover {
+	background-color: var(--color-secondary-dark);
+}
+
+.project-item .project-actions a svg{
+	margin-right: 1rem;
+}
